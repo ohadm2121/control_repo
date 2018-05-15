@@ -1,0 +1,4 @@
+class role::db_server {
+incloude profile::base
+incloude profile::db
+}
