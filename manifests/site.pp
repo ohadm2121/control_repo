@@ -1,7 +1,5 @@
 node default {
-  file {'/root/README':
-  ensure => file,
-  content => 'This is a readme',
-  owner => 'root',
   }
+  node 'ip-172-31-21-107.eu-central-1.compute.internal' {
+  incloude role::master_server
 }
