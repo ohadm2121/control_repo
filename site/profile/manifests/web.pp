@@ -1,3 +1,3 @@
 class profile:web {
-incloude ngimx
+include nginx
 }
