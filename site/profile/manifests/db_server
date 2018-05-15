@@ -1,4 +1,4 @@
 class role::db_server {
-incloude profile::base
-incloude profile::db
+include profile::base
+include profile::db
 }
